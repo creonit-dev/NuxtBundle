@@ -1,0 +1,17 @@
+{
+  "name": "creonit/nuxt-bundle",
+  "keywords": [
+    "creonit",
+    "symfony",
+    "nuxt"
+  ],
+  "license": "GPL-3.0-only",
+  "autoload": {
+    "psr-4": {
+      "Creonit\\NuxtBundle\\": ""
+    }
+  },
+  "require": {
+    "symfony/framework-bundle": "~5.0"
+  }
+}

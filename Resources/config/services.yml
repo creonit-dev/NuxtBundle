@@ -1,0 +1,4 @@
+services:
+    Creonit\NuxtBundle\Routing\NuxtLoader:
+        arguments: ['@file_locator', '%kernel.project_dir%/var/nuxt/routes.json']
+        tags: ['routing.loader']
